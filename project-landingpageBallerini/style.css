@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+nav {
+  margin-top: 18px;
+  margin-bottom: 16px;
+  margin-left: 368px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list{
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  list-style-type: none;
+  font-family: 'Sarala';
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFF2E7;
+}
+
+.line {
+  border: 0.2px solid #FFF2E7;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main h1 {
+  font-family: 'Righteous';
+  font-size: 64px;
+  line-height: 79px;
+  color: #FFF2E7;
+
+  margin-top: 94px;
+  margin-bottom: 32px;
+}
+
+main p {
+  font-family: 'Sarala';
+  font-size: 24px;
+  line-height: 39px;
+
+  color: #ECD6C4;
+}
+
+main button {
+  font-family: 'Sarala';
+  font-size: 24px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #2F2325;
+
+  cursor: pointer;
+
+  background: #ECD6C4;
+  border-radius: 20px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  
+  padding: 14px 43px 12px 45px;
+  margin-top: 34px;
+}
+
+.fineLine {
+  border: 0.4px solid #FFF2E7;
+  width: 280px;
+  margin-inline: auto;
+  margin-top: 127px;
+}
+
+
+section h3 {
+  font-family: 'Righteous';
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #FFF2E7;
+
+  margin-top: 60px;
+  margin-bottom: 31px;
+}
+
+section p {
+  font-family: 'Sarala';
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  margin-inline: auto;
+
+  color: #ECD6C4;
+
+  width: 1146px;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+#ballerini {
+  margin-top: 30px;
+}
